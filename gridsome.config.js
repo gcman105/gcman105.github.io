@@ -9,6 +9,7 @@ const tailwindcss = require("tailwindcss");
 
 module.exports = {
   siteName: "Gridsome",
+  siteUrl: 'https://gcman105.github.io',
   plugins: [],
   css: {
     loaderOptions: {

@@ -7,7 +7,7 @@
       >
         <span
           class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3"
-          >New</span
+          >GCMAN105's website </span
         >
         <span class="font-semibold mr-2 text-left flex-auto"
           >Get the coolest t-shirts from our brand new store</span
