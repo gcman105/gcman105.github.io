@@ -14,5 +14,8 @@
     "gridsome": "^0.7.0",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0"
   }
 }
