@@ -1,48 +1,37 @@
 <template>
   <Layout>
-    <div class="bg-indigo-900 text-center py-4 lg:px-4 mt-10">
-      <div
-        class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
-        role="alert"
-      >
-        <span
-          class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3"
-          >GCMAN105's website </span
-        >
-        <span class="font-semibold mr-2 text-left flex-auto"
-          >Get the coolest t-shirts from our brand new store</span
-        >
-        <svg
-          class="fill-current opacity-75 h-4 w-4"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-        >
-          <path
-            d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"
-          />
-        </svg>
+    <main class="lg:relative">
+      <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+        <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
+          <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-4xl xl:text-5xl">
+            <span class="block l:inline">gcman105 = Gary C. </span>
+            <span class="block text-indigo-600 xl:inline">online business</span>
+          </h1>
+          <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
+            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
+            fugiat veniam occaecat fugiat aliqua.
+          </p>
+          <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
+            <div class="rounded-md shadow">
+              <a href="#"
+                 class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                Get started
+              </a>
+            </div>
+            <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+              <a href="#"
+                 class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                Live demo
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div
-      class="bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3 mt-10"
-      role="alert"
-    >
-      <p class="font-bold">Informational message</p>
-      <p class="text-sm">Some additional text to explain said message.</p>
-    </div>
-
-    <button
-      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10"
-    >
-      Button
-    </button>
-
-    <button
-      class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-3"
-    >
-      Button
-    </button>
+      <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+        <img class="absolute inset-0 w-full h-full object-cover"
+             src="../assets/GaryCheeseman.jpg" height="1920" width="1920" alt="Gary C."/>
+      </div>
+    </main>
   </Layout>
 </template>
 
