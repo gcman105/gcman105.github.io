@@ -5,11 +5,10 @@
         <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
           <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-4xl xl:text-5xl">
             <span class="block l:inline">gcman105 = Gary C. </span>
-            <span class="block text-indigo-600 xl:inline">online work & play</span>
+            <span class="block text-indigo-600 xl:inline">online, work & play</span>
           </h1>
           <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua.
+            &nbsp;
           </p>
 <!--          <div class="mt-10 sm:flex sm:justify-center lg:justify-start">-->
 <!--            <div class="rounded-md shadow">-->
