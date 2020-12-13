@@ -7,7 +7,7 @@ if (process.env.NODE_ENV === "production")
   postcssPlugins.push(purgecss(require("./purgecss.config.js")));
 
 module.exports = {
-  siteName: "Gridsome",
+  siteName: "gcman105",
   plugins: [],
   css: {
     loaderOptions: {
