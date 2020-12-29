@@ -14,7 +14,7 @@
       </div>
       <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
         <img class="absolute inset-0 w-full h-full object-cover"
-             src="../assets/GaryCheeseman.jpg" height="1920" width="1920" alt="Gary C."/>
+             src='../static/GaryCheeseman.jpg' height="1920" width="1920" alt="Gary C."/>
         <Buymeacoffee />
       </div>
     </main>

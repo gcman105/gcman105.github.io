@@ -34,9 +34,9 @@
           <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex-shrink-0 flex items-center">
               <img class="block lg:hidden h-8 w-auto"
-                       src="../assets/gcman105_logo.png" height="500" width="500" aria-hidden="true" alt="gcman105"/>
+                   src='../static/gcman105_logo.png' height="500" width="500" aria-hidden="true" alt="gcman105"/>
               <img class="hidden lg:block h-8 w-auto"
-                       src="../assets/gcman105_logo2.png" height="250" width="1229" aria-hidden="true" alt="gcman105"/>
+                   src='../static/gcman105_logo2.png' height="250" width="1229" aria-hidden="true" alt="gcman105"/>
             </div>
             <!--            <div class="hidden sm:block sm:ml-6">-->
             <!--              <div class="flex space-x-4">-->
@@ -61,7 +61,7 @@
                   id="user-menu" aria-haspopup="true">
                   <span class="sr-only">Open user menu</span>
                   <img class="h-8 w-8 rounded-full"
-                       src="../assets/GaryCheeseman2018_500X500.jpg" alt="gcman105">
+                       src='../static/GaryCheeseman2018_500X500.jpg' alt="gcman105">
                 </button>
               </div>
             </div>
