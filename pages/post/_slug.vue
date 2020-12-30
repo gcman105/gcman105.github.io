@@ -6,16 +6,6 @@
 </template>
 
 <script>
-// export default {
-//   async asyncData ({ $content }) {
-//     const posts = await $content('posts')
-//       .only(["title", "slug"])
-//       .fetch()
-//     return {
-//       posts
-//     }
-//   }
-// }
 export default {
   async asyncData ({ $content, params }) {
     const post = await $content('posts', params.slug).fetch()

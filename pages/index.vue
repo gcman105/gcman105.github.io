@@ -1,42 +1,50 @@
 <template>
-  <main class='lg:relative'>
-    <div class='mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left'>
-      <div class='px-4 lg:w-1/2 sm:px-8 xl:pr-16'>
+  <main class="lg:relative">
+    <div
+      class="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-48 lg:text-left"
+    >
+      <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
         <h1
-          class='text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-4xl xl:text-5xl'>
-          <span class='block l:inline'>gcman105 = Gary C. </span>
-          <span class='block text-indigo-600 xl:inline'>online, work & play</span>
+          class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-4xl xl:text-5xl"
+        >
+          <span class="block l:inline">gcman105 = Gary C. </span>
+          <span class="block text-indigo-600 xl:inline"
+            >online, work & play</span
+          >
         </h1>
-        <p class='mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl'>
+        <p
+          class="max-w-md mx-auto mt-3 text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl"
+        >
           &nbsp;
         </p>
       </div>
     </div>
-    <div class='relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full'>
-      <img class='absolute inset-0 w-full h-full object-cover'
-           src='../static/GaryCheeseman.jpg' height='1920' width='1920' alt='Gary C.' />
-      <Buymeacoffee class='absolute z-10 right-3 bottom-3' />
+    <div
+      class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full"
+    >
+      <img
+        class="absolute inset-0 object-cover w-full h-full"
+        src="../static/GaryCheeseman.jpg"
+        height="1920"
+        width="1920"
+        alt="Gary C."
+      />
+      <Buymeacoffee class="absolute z-10 right-3 bottom-3" />
     </div>
     <nuxt-content :document="home_page" />
   </main>
 </template>
 
-<script lang='js'>
-import Buymeacoffee from '~/components/Buymeacoffee'
+<script>
 export default {
-  components: { Buymeacoffee },
-  asyncData: async function({ $content }) {
+  asyncData: async function ({ $content }) {
     const home_page = await $content('home').fetch()
 
     return {
-      home_page
+      home_page,
     }
   }
 }
 </script>
 
-<style>
-h2 {
-  @apply text-4xl text-red-400 font-bold;
-}
-</style>
+<style></style>
