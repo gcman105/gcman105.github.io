@@ -25,9 +25,12 @@
     },
     "types": [
       "@types/node",
-      "@nuxt/types"
+      "@nuxt/types",
+      "@nuxt/content",
+      "@types/jest"
     ]
   },
+  "include": ["**/*.ts", "**/*.vue"],
   "exclude": [
     "node_modules",
     ".nuxt",

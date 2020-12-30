@@ -4,11 +4,15 @@ export default {
   telemetry: false,
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'gcman105com',
+    title: 'gcman105 = Gary C.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      {
+        hid: 'gcman105 = Gary C. online, work & play',
+        name: 'gcman105 = Gary C. online, work & play',
+        content: 'gcman105 = Gary C. online, work & play'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -41,7 +45,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content',
+    '@nuxt/content'
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
