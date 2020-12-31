@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/post", {data:[{posts:[{slug:"great-article",title:"Great Article"},{slug:"second-great-article",title:"Second Great Article"}]}],fetch:[],mutations:void 0});
