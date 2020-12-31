@@ -33,23 +33,28 @@
           </div>
           <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex-shrink-0 flex items-center">
+              <a href='/'>
               <img class="block lg:hidden h-8 w-auto"
                    src='../static/gcman105_logo.png' height="500" width="500" aria-hidden="true" alt="gcman105"/>
               <img class="hidden lg:block h-8 w-auto"
                    src='../static/gcman105_logo2.png' height="250" width="1229" aria-hidden="true" alt="gcman105"/>
+              </a>
             </div>
-            <!--            <div class="hidden sm:block sm:ml-6">-->
-            <!--              <div class="flex space-x-4">-->
-            <!--                &lt;!&ndash; Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" &ndash;&gt;-->
-            <!--                <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>-->
-            <!--                <a href="#"-->
-            <!--                   class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>-->
-            <!--                <a href="#"-->
-            <!--                   class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>-->
-            <!--                <a href="#"-->
-            <!--                   class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar</a>-->
-            <!--              </div>-->
-            <!--            </div>-->
+            <div class='hidden sm:block sm:ml-6'>
+              <div class='flex space-x-4'>
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href='/posts'
+                   class='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
+                  Blog
+                </a>
+<!--                <a href='#'-->
+<!--                   class='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>Team</a>-->
+<!--                <a href='#'-->
+<!--                   class='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>Projects</a>-->
+<!--                <a href='#'-->
+<!--                   class='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>Calendar</a>-->
+              </div>
+            </div>
           </div>
           <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 
@@ -77,13 +82,17 @@
       <div class="hidden sm:hidden">
         <div class="px-2 pt-2 pb-3 space-y-1">
           <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-          <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Dashboard</a>
-          <a href="#"
-             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
-          <a href="#"
-             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
-          <a href="#"
-             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
+          <a href='/posts'
+             class='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
+            Blog
+          </a>
+<!--          <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Dashboard</a>-->
+<!--          <a href="#"-->
+<!--             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>-->
+<!--          <a href="#"-->
+<!--             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>-->
+<!--          <a href="#"-->
+<!--             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>-->
         </div>
       </div>
     </nav>
