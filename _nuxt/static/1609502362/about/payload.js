@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/about", (function(a){return {data:[{page:{slug:"about",description:"gcman105 online, work & play",title:"gcman105=Gary C.",author:"Gary Cheeseman",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002Fabout",extension:".md",createdAt:a,updatedAt:a}}],fetch:[],mutations:void 0}}("2021-01-01T11:58:14.830Z")));
