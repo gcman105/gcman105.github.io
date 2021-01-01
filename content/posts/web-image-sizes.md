@@ -1,18 +1,25 @@
 ---
 title: Image Sizes for Websites
 description: Recommended image sizes for your website
-img: https://images.unsplash.com/photo-1609342122563-a43ac8917a3a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
-alt: article 7
+img: https://res.cloudinary.com/gcman105/image/upload/v1609514932/stock/55677023_vnd7ah.jpg
+alt: Image Sizes for Websites
 author: Gary C.
 date: '1 January 2021'
 tags:
 - web
 ---
 
-## Hello and Welcome to the gcman105 Blog
+## Recommended image size for your website
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras placerat lectus vitae massa. Morbi justo. Suspendisse eu sem sed lorem faucibus sodales. Vestibulum tristique lobortis lorem. Suspendisse potenti. Donec blandit purus in urna. Vestibulum egestas mi a felis. Praesent quis purus eget purus imperdiet placerat. Donec consequat consequat lacus. In viverra neque.
+Website images that are too big, will not only create issues with the user experience on your site, but will affect your SEO strategy *(loading speed, bounce rate, ranking, etc)*.
 
+![Recommended image size for websites](https://res.cloudinary.com/gcman105/image/upload/v1609516487/articles/image_size_ehm2gu.jpg "")
+
+### Recommended size: 1920x1080px, jpeg, saved for web at 72 DPI
+
+Note that devices have different ratio than the one you shoot and it is possible your images will be cropped when viewed on web. As a recommendation try to shoot wider shots than usual for your web content, to avoid cropping of important image content.
+
+![Example resized to 1920 x 1304](https://res.cloudinary.com/gcman105/image/upload/v1609512455/stock/55533226_imp2ae.jpg "Example resized to 1920 x 1304")
 
 
 

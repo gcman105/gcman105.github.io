@@ -25,7 +25,7 @@
       >
         <img
           class='absolute inset-0 object-cover w-full h-full'
-          src='../static/GaryCheeseman.jpg'
+          src='https://res.cloudinary.com/gcman105/image/fetch/f_auto,q_auto/https://gcman105.com/_nuxt/img/GaryCheeseman.d494e8c.jpg'
           height='1920'
           width='1920'
           alt='Gary C.'

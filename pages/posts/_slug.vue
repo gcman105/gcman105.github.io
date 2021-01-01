@@ -35,7 +35,7 @@
             <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Article</span>
             <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ post.title }}</span>
           </h1>
-          <img v-if='post.img' :src='post.img' :alt='post.alt' class='w-full'/>
+          <img v-if='post.img' :src='post.img' :alt='post.alt' class='w-full pt-1'/>
         </div>
         <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
           <nuxt-content :document='post' />
