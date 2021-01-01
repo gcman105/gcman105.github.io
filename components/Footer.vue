@@ -2,6 +2,13 @@
   <footer class="bg-white">
     <div class="max-w-6xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
       <div class="flex justify-center space-x-6 md:order-2">
+
+        <a href="https://www.buymeacoffee.com/gcman105"
+           class="text-gray-400 hover:text-gray-500" target='_blank'>
+          <span class="sr-only">ButMeAcoffee</span>
+          <img src='../static/BMClogoB.png' alt='buymeacoffee.com/gcman105' class='h-6'/>
+        </a>
+
         <a href="https://www.facebook.com/gcman105/"
            class="text-gray-400 hover:text-gray-500" target='_blank'>
           <span class="sr-only">Facebook</span>
@@ -44,7 +51,7 @@
       </div>
       <div class="mt-8 md:mt-0 md:order-1">
         <p class="text-center text-base text-gray-400">
-          &copy; 2020 gcman105. All rights reserved.
+          &copy; 2021 gcman105.com All rights reserved.
         </p>
       </div>
     </div>
@@ -52,7 +59,10 @@
 </template>
 
 <script>
-
+import Buymeacoffee from '~/components/Buymeacoffee'
+export default {
+  components: { Buymeacoffee }
+}
 </script>
 
 <style scoped>

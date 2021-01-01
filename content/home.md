@@ -1,7 +1,8 @@
 ---
 title: gcman105=Gary C.
-description: gcman105 online, work & play
+subtitle: online, work & play
+description: ' '
 author: Gary Cheeseman
 ---
 
-This is the home page.
+Welcome to Gary's blog.
