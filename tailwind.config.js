@@ -11,6 +11,18 @@ module.exports = {
       },
       colors: {
         rose: colors.rose
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            "code::before": {
+              content: ''
+            },
+            "code::after": {
+              content: ''
+            }
+          }
+        }
       }
     },
   },
