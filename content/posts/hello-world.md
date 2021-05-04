@@ -6,7 +6,7 @@ alt: article 7
 author: Gary C.
 date: '31 December 2020'
 tags:
-- web
+  - web
 ---
 
 ## Hello and Welcome to the gcman105 Blog
@@ -14,7 +14,3 @@ tags:
 This is the hello world post of my blog!
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras placerat lectus vitae massa. Morbi justo. Suspendisse eu sem sed lorem faucibus sodales. Vestibulum tristique lobortis lorem. Suspendisse potenti. Donec blandit purus in urna. Vestibulum egestas mi a felis. Praesent quis purus eget purus imperdiet placerat. Donec consequat consequat lacus. In viverra neque.
-
-
-
-

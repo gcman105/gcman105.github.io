@@ -4,5 +4,3 @@ subtitle: online, work & play
 description: ' '
 author: Gary Cheeseman
 ---
-
-Hi
